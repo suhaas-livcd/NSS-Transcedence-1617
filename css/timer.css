@@ -89,3 +89,50 @@ https://in.linkedin.com/in/suhaas-srinivas-gandham-15704788
     color: white;
   }
 }
+
+
+/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		#clockdiv{
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 23px;
+}
+
+#clockdiv > div{
+  padding: 1px;
+  border-radius: 3px;
+  background: #00BF96;
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #00816A;
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 1px;
+  font-size: 12px;
+}
+
+
+	}
+
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+	
+		
+		
+		
+		
+	}
+
+		
+		
+	

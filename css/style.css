@@ -4717,16 +4717,30 @@ footer p {
 
 /* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
+        .navbar-brand {
+        font-size:20px;
+        }
+
 		p{text-align: center;}
 		
-		h1, .h1 {
-			font-size: 50px;
+		h1, .h1, .h1_home {
+			font-size: 25px;
+            text-align:center
 		}
-		
 		h3, .h3 {
 			font-size: 20px;
 			text-align:center
 		}
+
+        h2,.h2{
+            font-size: 40px;
+			text-align:center
+        }
+
+        #preloader, #status {
+            display:none;
+        }
+
 		.col-sm-4 {margin-bottom: 120px; text-align:center;}
 		.col-sm-4 > i{text-align:center;}
 		.col-sm-5 .img-responsive {display:none}
